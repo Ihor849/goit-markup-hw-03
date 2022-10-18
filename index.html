@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <title>WebStudio</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -15,11 +16,9 @@
     <header class="background-header">
       <div class="container logo-heder">
         <nav class="logonav">
-          <div class="logo">
-            <!-- Logo -->
-            <a href="./index.html" class="headerlogo"
-            ><span class="logo-web">Web</span>Studio</a>
-          </div>
+          <!-- Logo -->
+          <a href="./index.html" class="headerlogo"
+          ><span class="logo-web">Web</span>Studio</a>
           <ul class="site-nav list">
             <li class="item"><a href="./index.html" class="navigation current">Студія</a></li>
             <li class="item"><a href="./portfolio.html" class="navigation">Портфоліо</a></li>
@@ -79,7 +78,7 @@
       </section>
       <!-- What are we doing. -->
       <section class="section work">
-        <div class="container img-work">
+        <div class="container">
           <h2 class="section-title list">Чим ми займаємося</h2>
           <ul class="list card">
             <li class="list card-list">
@@ -119,40 +118,48 @@
                 src="./images/Igor-Demyanenko.jpg"
                 alt="Igor Demyanenko"
                 width="270"
-                height="260" class="photocard"
+                height="260"
               />
-              <h3 class="img-title list">Ігор Дем'яненко</h3>
-              <p class="img-text list">Product Designer</p>
+              <div class="tagline">
+                <h3 class="img-title list">Ігор Дем'яненко</h3>
+                <p class="img-text list">Product Designer</p>
+              </div>
             </li>
             <li class="img-team list">
               <img
                 src="./images/Olga-Repina.jpg"
                 alt="Olga Repina"
                 width="270"
-                height="260" class="photocard"
+                height="260"
               />
-              <h3 class="img-title list">Ольга Рєпіна</h3>
-              <p class="img-text list">Frontend Developer</p>
+              <div class="tagline">
+                <h3 class="img-title list">Ольга Рєпіна</h3>
+                <p class="img-text list">Frontend Developer</p>
+              </div>
             </li>
             <li class="img-team list">
               <img
                 src="./images/Mikola-Tarasov.jpg"
                 alt="Mikola Tarasov"
                 width="270"
-                height="260" class="photocard"
+                height="260"
               />
-              <h3 class="img-title list">Микола Тарасов</h3>
-              <p class="img-text list">Marketing</p>
+              <div class="tagline">
+                <h3 class="img-title list">Микола Тарасов</h3>
+                <p class="img-text list">Marketing</p>
+              </div>
             </li>
             <li class="img-team list">
               <img
                 src="./images/Mikhailo-Yermakov.jpg"
                 alt="Mikhailo Yermakov"
                 width="270"
-                height="260" class="photocard"
+                height="260"
               />
-              <h3 class="img-title list">Михайло Єрмаков</h3>
-              <p class="img-text list">UI Designer</p>
+              <div class="tagline">
+                <h3 class="img-title list">Михайло Єрмаков</h3>
+                <p class="img-text list">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -161,7 +168,7 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container footer-address">
+      <div class="container">
         <div class="logo-footer">
           <!-- address -->
           <a href="./index.html" class="footerlogo"><span class="logo-web">Web</span>Studio</a>
