@@ -57,8 +57,8 @@ align-items: center;
     padding-right: 15px;
     padding-left: 15px;
     /* outline: 2px solid #dd0707; */
-   
 }
+
 /* header */
 /* logo */
 
@@ -67,10 +67,10 @@ align-items: center;
     align-items: center;
 }
 
-
 .headerlogo, 
 .logo-web,
 .footerlogo {
+
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -78,7 +78,7 @@ line-height: 1.19;
 }
 .headerlogo,
 .logo-web {
-display: inline-block;
+    display: inline-block;
 
 }
 
@@ -92,7 +92,7 @@ display: inline-block;
 }
 .footerlogo {
     color: var(--main-background);
-    
+      
 }
 
 /* header site-nav */
@@ -122,8 +122,6 @@ display: inline-block;
 .site-nav .item {
     min-width: 45px;
     margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
     display: inline-block;
     /* outline: 2px solid black; */
 }
@@ -133,9 +131,6 @@ display: inline-block;
 }
 .auth .item {
     display: inline-block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-       
     /* outline: 2px solid black; */
 }
  
@@ -143,8 +138,7 @@ display: inline-block;
     margin-left: 50px;
 }
 /* .auth .item:not(last-child) { */
-    /* margin-right: 0px; */
-/* } */
+    
 
 .auth {
     margin-left: auto;
@@ -178,7 +172,6 @@ display: inline-block;
 /* section hero */
 
 .section {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -232,7 +225,6 @@ display: inline-block;
 /* sections WebStudio */
 /* Чому саме ми */
 
-
  .title-text {
     font-size: 14px;
     line-height: 1.71;
@@ -252,6 +244,9 @@ display: inline-block;
     overflow: hidden;
 }
 
+.why-are-we {
+    padding-top: 94px;
+}
 .about-us {
     display: flex;
     flex-wrap: wrap;
@@ -268,11 +263,6 @@ display: inline-block;
 } 
 
 /* Чим ми займаємося */
-
-.work {
-    padding: 0;
-    /* background-color: rgb(210, 240, 101); */
-}
 
 .card {
     display: flex;
@@ -336,7 +326,6 @@ display: inline-block;
     
 }
 
-
 .img-title {
     margin-bottom: 10px;
 
@@ -347,7 +336,6 @@ display: inline-block;
 }
 
 .img-text {
-   
     font-size: 16px;
     line-height: 1.19;
 }
@@ -361,9 +349,7 @@ display: inline-block;
     padding-bottom: 25px;
 } */
 
-.logo-footer {
-    margin-bottom: 20px;
-}
+
 .footer {
     background-color: #2F303A;
     padding-top: 60px;
@@ -371,6 +357,8 @@ display: inline-block;
 }
 
 .address {
+    margin-top: 20px;
+
     font-size: 14px;
     line-height: 1.71;
 }
@@ -472,7 +460,7 @@ margin-bottom: 0;
 /* footercontact-addres */
 
 .footercontact-addres {
-
+    
     color: var(--main-background);
     font-style: normal;
     font-size: 14px;
