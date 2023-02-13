@@ -57,8 +57,8 @@ align-items: center;
     padding-right: 15px;
     padding-left: 15px;
     /* outline: 2px solid #dd0707; */
+   
 }
-
 /* header */
 /* logo */
 
@@ -67,10 +67,10 @@ align-items: center;
     align-items: center;
 }
 
+
 .headerlogo, 
 .logo-web,
 .footerlogo {
-
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -78,7 +78,7 @@ line-height: 1.19;
 }
 .headerlogo,
 .logo-web {
-    display: inline-block;
+display: inline-block;
 
 }
 
@@ -92,7 +92,7 @@ line-height: 1.19;
 }
 .footerlogo {
     color: var(--main-background);
-      
+    
 }
 
 /* header site-nav */
@@ -122,6 +122,8 @@ line-height: 1.19;
 .site-nav .item {
     min-width: 45px;
     margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: inline-block;
     /* outline: 2px solid black; */
 }
@@ -131,6 +133,9 @@ line-height: 1.19;
 }
 .auth .item {
     display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+       
     /* outline: 2px solid black; */
 }
  
@@ -138,7 +143,8 @@ line-height: 1.19;
     margin-left: 50px;
 }
 /* .auth .item:not(last-child) { */
-    
+    /* margin-right: 0px; */
+/* } */
 
 .auth {
     margin-left: auto;
@@ -172,6 +178,7 @@ line-height: 1.19;
 /* section hero */
 
 .section {
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -225,6 +232,7 @@ line-height: 1.19;
 /* sections WebStudio */
 /* Чому саме ми */
 
+
  .title-text {
     font-size: 14px;
     line-height: 1.71;
@@ -244,9 +252,6 @@ line-height: 1.19;
     overflow: hidden;
 }
 
-.why-are-we {
-    padding-top: 94px;
-}
 .about-us {
     display: flex;
     flex-wrap: wrap;
@@ -263,6 +268,11 @@ line-height: 1.19;
 } 
 
 /* Чим ми займаємося */
+
+.work {
+    padding: 0;
+    /* background-color: rgb(210, 240, 101); */
+}
 
 .card {
     display: flex;
@@ -326,6 +336,7 @@ line-height: 1.19;
     
 }
 
+
 .img-title {
     margin-bottom: 10px;
 
@@ -336,6 +347,7 @@ line-height: 1.19;
 }
 
 .img-text {
+   
     font-size: 16px;
     line-height: 1.19;
 }
@@ -349,7 +361,9 @@ line-height: 1.19;
     padding-bottom: 25px;
 } */
 
-
+.logo-footer {
+    margin-bottom: 20px;
+}
 .footer {
     background-color: #2F303A;
     padding-top: 60px;
@@ -357,8 +371,6 @@ line-height: 1.19;
 }
 
 .address {
-    margin-top: 20px;
-
     font-size: 14px;
     line-height: 1.71;
 }
@@ -460,7 +472,7 @@ margin-bottom: 0;
 /* footercontact-addres */
 
 .footercontact-addres {
-    
+
     color: var(--main-background);
     font-style: normal;
     font-size: 14px;
